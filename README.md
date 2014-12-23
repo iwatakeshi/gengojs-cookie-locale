@@ -24,7 +24,7 @@ This library requires:
 <script type="text/javascript" src="gcl.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		var gengo = new gcl();
+		var gengo = gcl();
 		$('.en-us, .ja').click(function () {
 			gengo.setLocale(this);
 		})

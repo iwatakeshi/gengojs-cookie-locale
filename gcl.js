@@ -13,6 +13,7 @@
  
   var gcl,
       cookiName = 'locale',
+      version = '0.0.1',
       hasModule = (typeof module !== 'undefined' && module.exports);
  
     var GCL = function (opt) {
@@ -21,7 +22,7 @@
           cookiName = opt.cookiName;
         }
       }
-    }
+    };
 
   gcl = function(opt) {
       if($){
@@ -30,6 +31,8 @@
         throw new Error('Jquery not found.');
       }
   };
+
+  gcl.version = version;
 
   GCL.prototype.setLocale = function(locale) {
     if(typeof(locale) === String){
