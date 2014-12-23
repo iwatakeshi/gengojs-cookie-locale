@@ -13,8 +13,8 @@ This library requires:
 ```html
 
 <ul>
-	<li><a href="###" class="en-us">English</a></li>
-	<li><a href="###" class="ja">Japanese</a></li>
+	<li><a class="en-us">English</a></li>
+	<li><a class="ja">Japanese</a></li>
 </ul>
 
 
